@@ -19,12 +19,12 @@ Download the IBM Cloud CLI(Command Line Interface) from https://clis.ng.bluemix.
 
 Download or clone the application files and save them from: https://github.com/prernabhojwani/Coffee-Code
 
-Open the 'Manifest.yml' file in the 'static' folder in a text editor of your choice, and edit the name of your app.
+Open the 'Manifest.yml' file in a text editor of your choice, and edit the name of your app.
 Make sure that it is something uniques as this will be your host name too.
 
 ![appname](images/appname.PNG)
 
-In the same folder, open up the 'index.html' file to edit the information that would show up on yoor webpage such as name, title, description.
+Next, open up the 'index.html' file to edit the information that would show up on yoor webpage such as name, title, description.
 
 ![change](images/change.PNG)
 
@@ -41,7 +41,7 @@ Navigate to the folder with the application files using 'cd' followed by the fol
 
 Log into your IBM Cloud account through the CLI with the following command: 
 
-``` bx login -a https://api.eu-gb.bluemix.net -u [youremail] -p [yourpassword] ```
+``` bx login -a https://api.eu-gb.bluemix.net -u your_email -p your_password ```
 
 Select the organization and space in which you would create the app.
 
@@ -49,7 +49,7 @@ You can get these details from the IBM Cloud dashboard.
 
 The organizatoin name usually is the same as your email and the space is usually called 'dev'. 
 
-``` bx target -o [organization_name] -s [space_name] ```
+``` bx target -o organization_name -s space_name ```
 
 To deploy the app:
 
