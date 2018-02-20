@@ -37,7 +37,7 @@ If you're running on Mac, open up the terminal
 
 Navigate to the folder with the application files using 'cd' followed by the folder path 
 
-![newcd](images/newcd.PNG)
+![newcdcd](images/newcdcd.PNG)
 
 Log into your IBM Cloud account through the CLI with the following command: 
 
